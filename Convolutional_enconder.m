@@ -18,7 +18,7 @@ out = zeros(1,length(in)*2);
     out(2*(i-1)+1:2*(i-1)+2) = [out1 out2];
     %Set next state
     state = data(1:end-1);
-end
+    end
 
 
 end
